@@ -1,0 +1,203 @@
+package javaaula13_09exercicios;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author guilherme_nones
+ */
+public class JavaAula13_09Exercicios {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        //// String nome = JOptionPane.showInputDialog("Informe seu nome: ");
+/*
+        // 1 – Crie um programa para efetuar a soma de dois valores.
+        
+        System.out.println("Efetue a soma de dois valores.");
+        System.out.println("Informe valor A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Informe valor B: ");
+        
+        int b = sc.nextInt();
+        
+        int c = a + b;
+        
+        System.out.println("O resultado da soma entre A e B é: " + c);
+ */
+ /*
+        // 2. Crie um programa para fazer a subtração de dois valores.
+        
+        System.out.println("Efetue a subtração entre dois valores");
+        System.out.println("Informe o valor A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Informe o valor B: ");
+        
+        int b = sc.nextInt();
+        
+        int c = a - b;
+        
+        System.out.println("O resultado da subtração entre A e B é: " + c);
+ */
+ /*
+        // 3. Crie um programa para realizar a multiplicação de dois valores.
+        
+        System.out.println("Efetue a multiplicação entre dois valores");
+        System.out.println("Informe o valor de A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Informe o valor de B: ");
+        
+        int b = sc.nextInt();
+        
+        int c = a * b;
+        
+        System.out.println("O resultado da multiplicação entre A e B é: " + c);
+ */
+ /*
+        // 4. Crie um programa para dividir dois valores.
+        
+        System.out.println("Efetue a divisão entre dois valores");
+        System.out.println("Informe o valor de A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Informe o valor de B: ");
+        
+        int b = sc.nextInt();
+        
+        int c = a / b;
+        
+        System.out.println("O resultado da divisão entre A e B é: " + c);
+ */
+ /*
+        // 5. Crie um programa para receber três valores e calcular a média.
+        
+        System.out.println("receba três valores e calcule a média: ");
+        System.out.println("informe o valor de A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Informe o valor de B: ");
+        
+        int b = sc.nextInt();
+        
+        System.out.println("Informe o valor de C: ");
+        
+        int c = sc.nextInt();
+        
+        int d = (a + b + c) / 3;
+        
+        System.out.println("A média entre os valores A, B e C é: " + d);
+ */
+ /*
+        // 6. Crie um programa que peça ao usuário para digitar um valor e exibir na tela.
+        
+        System.out.println("Digite um valor para exibir na tela");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("O número digitado foi: " + a);
+*/
+ /*
+        // 7. Crie um programa para receber dois valores inteiros e mostrar o resultado da soma e da subtração dos valores.
+        
+        System.out.println("Digite dois valores inteiros para mostrar o resultado da soma e da subtração dos valores");
+        System.out.println("Digite o valor de A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Digite o valor de B: ");
+        
+        int b = sc.nextInt();
+        
+        System.out.println("O resultado da soma de A + B é : " + (a + b));
+        
+        System.out.println("O resultado da subtração entre A + B é: " + (a - b));
+ */
+ /*
+        // 8. Crie um programa para receber dois valores inteiros e mostrar o resultado da multiplicação e da divisão dos valores.
+        
+        System.out.println("Digite dois valores inteiros para mostrar o resultado da multiplicação e da divisão dos valores");
+        System.out.println("Digite o valor de A: ");
+        
+        int a = sc.nextInt();
+        
+        System.out.println("Digite o valor de B: ");
+        
+        int b = sc.nextInt();
+        
+        System.out.println("O resultado da multiplicação de A * B é : " + (a * b));
+        
+        System.out.println("O resultado da divisão de A / B é : " + (a / b));
+*/
+/*      // 9. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e o número de filhos.
+        // A prefeitura deseja saber: a) A média do salário da população; b) A média do número de filhos. 
+
+        System.out.println("Quantos habitantes tem na cidade?");
+        
+        int habitantes = sc.nextInt();
+        System.out.println("a cidade tem " + habitantes + " habitantes\n");
+        
+        System.out.println("Informe o salário de cada um deles");
+        
+        float salario1 = sc.nextFloat();
+        System.out.println("O salário do primeiro habitante é de: R$" + salario1);
+        float salario2 = sc.nextFloat();
+        System.out.println("O salário do segundo habitante é de: R$" + salario2);
+        float salario3 = sc.nextFloat();
+        System.out.println("O salário do terceiro habitante é de: R$" + salario3);
+        
+        
+        System.out.println("\nQuantos desses habitante tem filhos?");
+        int filhos = sc.nextInt();
+        
+        System.out.println("quantos filhos tem o primeiro habitante?");
+        float filho1 = sc.nextFloat();
+        System.out.println("O primeiro habitante tem: " + filho1 + " filhos\n");
+        
+        System.out.println("quantos filhos tem o segundo habitante?");
+        float filho2 = sc.nextFloat();
+        System.out.println("O segundo habitante tem: " + filho2 + " filhos\n");
+        
+        System.out.println("quantos filhos tem o terceiro habitante?");
+        float filho3 = sc.nextFloat();
+        System.out.println("O terceiro habitante tem: " + filho3 + " filhos\n");
+        
+               
+        System.out.println("a média salarial dos habitantes é R$" + (salario1 + salario2 + salario3) / 3 + "reais");
+        
+        System.out.println("a média de filhos dos habitantes é " + (filho1 + filho2 + filho3) / 3);
+*/
+/*
+        // 10. Faça um programa que leia um valor, 5 vezes, e, ao final, informe a média dos números digitados.
+        
+        System.out.println("Leia 5 valores, e, ao final, informe a média dos números digitados.");
+        
+        System.out.println("Digite o valor de A: ");
+        int a = sc.nextInt();        
+        System.out.println("Digite o valor de B: ");
+        int b = sc.nextInt();        
+        System.out.println("Digite o valor de C: ");
+        int c = sc.nextInt();        
+        System.out.println("Digite o valor de D: ");
+        int d = sc.nextInt();        
+        System.out.println("Digite o valor de E: ");
+        int e = sc.nextInt();
+        
+        int f = (a + b + c + d + e) / 5;
+        
+        System.out.println("A média dos números digitados é: " + f);
+*/     
+
+    }
+
+}
